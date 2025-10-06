@@ -1,40 +1,35 @@
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Tombol Notifikasi</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding-top: 100px;
-      background-color: #f0f8ff;
-    }
-
-    button {
-      padding: 15px 30px;
-      font-size: 16px;
-      background-color: #c34fce;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    button:hover {
-      background-color: #f7bf26;
-    }
-  </style>
+  <title>Tombol Notif Keren</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Hi, ini Web Rahasia</h1>
-  <p>Klik tombol diantara ini adalah rahasia terdalam mereka.</p>
+  <h1>Hai, ini web rahasia..</h1>
+  <p>Tombol diantara ini adalah rahasia terdalam mereka!</p>
 
-  <button onclick="showNotif()">Rahasia terdalam Nisa</button>
+  <!-- Tombol utama -->
+  <button onclick="showNotif()">Rahasia terdalam Mira</button>
 
-  <!-- Hubungkan ke file script -->
-  <script src="script.js"></script>
+  <!-- Tombol pojok -->
+  <button class="corner-button" onclick="showNotif2()">Rahasia terdalam Nisa</button>
+
+  <script>
+    function showNotif() {
+      alert("Mira matanya mirip lampu hazard, motor scoopynya adalah bentuk tanda tanda akhir jaman");
+    }
+
+    function showNotif2() {
+      alert("Nisa sebenarnya wujud musang akal akalan barat, muka hyrtam ireng dan akun robloknya menandakan ciri cirinya sebagai musang terburuk diantara musang!");
+    }
+  </script>
 </body>
 </html>
