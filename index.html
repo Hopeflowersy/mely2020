@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>"mely2020"</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Tombol Notifikasi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      background-color: #f0f8ff;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 16px;
+      background-color: #c34fce;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #f7bf26;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hai</h1>
-  <p>The Flowers waiting for you, Mely.</p>
-  <button onclick="halo()">What is this?</button>
 
+  <h1>Hi, ini Web Rahasia</h1>
+  <p>Klik tombol diantara ini adalah rahasia terdalam mereka.</p>
+
+  <button onclick="showNotif()">Rahasia terdalam Nisa</button>
+
+  <!-- Hubungkan ke file script -->
   <script src="script.js"></script>
 </body>
 </html>
