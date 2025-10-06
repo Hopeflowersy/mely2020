@@ -1,3 +1,3 @@
 function halo() {
-  alert("Web pertama njir, awokwokokwk");
+  alert("Web pertama njir, nisa jawa");
 }
